@@ -5,7 +5,7 @@ include "../infra/conexao.php";
 $sql = "SELECT * FROM usuarios";
 $resultado = mysqli_query($conexao, $sql);
 
-$sql = "UPDATE pratos SET titulo='$titulo',autor='$autor',ano='$ano' WHERE id = '$id'";
+$sql = "UPDATE usuarios SET nome='$nome',email='$email' WHERE id = '$id'";
 ?>
 
 <!DOCTYPE html>
