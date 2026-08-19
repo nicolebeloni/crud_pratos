@@ -13,27 +13,13 @@
 
     <h2>Menu</h2>
 
-    <a href="public/cad_usuarios.php">
-        Cadastrar Usuário
-    </a>
+     <a href="public/cad_usuarios.php">Cadastrar usuário</a>
 
-    <br><br>
+     <a href="public/listar_usuarios.php">Listar usuários</a>
 
-    <a href="public/listar.php">
-        Lista de Usuários Cadastrados
-    </a>
+    <a href="public/cad_pratos.php">Cadastrar prato</a>
 
-    <br><br>
-
-    <a href="public/cad_pratos.php">
-        Cadastrar Prato
-    </a>
-
-    <br><br>
-
-    <a href="public/listar_pratos.php">
-        Lista de Pratos Cadastrados
-    </a>
+    <a href="public/listar_pratos.php">Listar pratos</a>
 
 </body>
 
