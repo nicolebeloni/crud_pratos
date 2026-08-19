@@ -3,8 +3,8 @@
 $host = "localhost";
 $usuario = "root";
 $senha = "root";
-$banco = "livraria_icaro_m2";
-
+$banco = "pratos_alana_nicole_m3";
+calma ma
 $conexao = new mysqli($host, $usuario, $senha, $banco);
 
 if ($conexao->connect_error) {
