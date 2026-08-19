@@ -13,25 +13,25 @@
 
     <h2>Menu</h2>
 
-    <a href="cadastrar_usuario.php">
+    <a href="public/cad_usuarios.php">
         Cadastrar Usuário
     </a>
 
     <br><br>
 
-    <a href="listar_usuarios.php">
+    <a href="public/listar.php">
         Listar Usuários
     </a>
 
     <br><br>
 
-    <a href="cadastrar_prato.php">
+    <a href="public/cad_pratos.php">
         Cadastrar Prato
     </a>
 
     <br><br>
 
-    <a href="listar_pratos.php">
+    <a href="">
         Listar Pratos
     </a>
 
