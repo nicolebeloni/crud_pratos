@@ -9,13 +9,8 @@ create table usuarios (
 
 create table pratos (
     id int auto_increment primary key,
-    usuario_id int not null,
     nome varchar(100) not null,
     descricao text not null,
     preco decimal(10,2) not null,
-    categoria varchar(100) not null,
-
-   foreign key (usuario_id) references usuarios(id)
-        on delete cascade
-        on update cascade
+    categoria varchar(100) not null
 );
