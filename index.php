@@ -1,35 +1,39 @@
-<?php
-include "infra/conexao.php";
-?>
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de Usuário</title>
+    <title>Sistema do Restaurante</title>
 </head>
 
 <body>
 
-    <h1>Cadastro de Usuário</h1>
+    <h1>Sistema de Gerenciamento de Pratos</h1>
 
-    <form action="cadastrar_usuario.php" method="POST">
+    <h2>Menu</h2>
 
-        <label>Nome:</label>
-        <input type="text" name="nome" required>
+    <a href="cadastrar_usuario.php">
+        Cadastrar Usuário
+    </a>
 
-        <br><br>
+    <br><br>
 
-        <label>E-mail:</label>
-        <input type="email" name="email" required>
+    <a href="listar_usuarios.php">
+        Listar Usuários
+    </a>
 
-        <br><br>
+    <br><br>
 
-        <button type="submit">Cadastrar</button>
+    <a href="cadastrar_prato.php">
+        Cadastrar Prato
+    </a>
 
-    </form>
+    <br><br>
+
+    <a href="listar_pratos.php">
+        Listar Pratos
+    </a>
 
 </body>
 
