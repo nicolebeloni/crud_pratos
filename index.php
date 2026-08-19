@@ -20,7 +20,7 @@
     <br><br>
 
     <a href="public/listar.php">
-        Listar Usuários
+        Lista de Usuários Cadastrados
     </a>
 
     <br><br>
@@ -31,8 +31,8 @@
 
     <br><br>
 
-    <a href="">
-        Listar Pratos
+    <a href="public/listar_pratos.php">
+        Lista de Pratos Cadastrados
     </a>
 
 </body>
