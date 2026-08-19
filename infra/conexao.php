@@ -2,9 +2,8 @@
 
 $host = "localhost";
 $usuario = "root";
-$senha = "root";
+$senha = "";
 $banco = "pratos_alana_nicole_m3";
-calma ma
 $conexao = new mysqli($host, $usuario, $senha, $banco);
 
 if ($conexao->connect_error) {
